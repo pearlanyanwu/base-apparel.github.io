@@ -10,6 +10,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued Development](#continued-development)
 
 ## Overview
 
@@ -30,10 +31,15 @@ Users should be able to:
 
 ### Built with
 
-- HTML
+- Semantic HTML5 markup
 - CSS Grid
-- JS
+- Javascript
 
 ### What I learned
 
 In this project, I learned how to validate email input using a regex pattern and if-else statements.
+
+
+### Continued Development
+
+Working on responsiveness for smaller screen sizes.
