@@ -56,7 +56,7 @@ body {
 
 .paragraphs p:last-of-type {
   width: 100%;
-  font-size: 0.1rem;
+  /* font-size: 0.1rem; */
   line-height: 1.5rem;
 }
 
