@@ -6,11 +6,12 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 
 ## Overview
 
@@ -18,14 +19,15 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 Users should be able to:
 
+- View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-### Screenshot
+### Links
 
-![](base_apparel.png)
+- Live Site URL: https://pearlanyanwu.github.io/base-apparel.github.io/
 
 ## My process
 
@@ -37,9 +39,12 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned how to validate email input using a regex pattern and if-else statements.
+I learned how to use grid-template-areas property to build the mobile view.
 
+### Continued development
 
-### Continued Development
+I'm uploading the mobile view so I'll be able to view it on my mobile device before I start working on the desktop view.
 
-Working on responsiveness for smaller screen sizes.
+### Useful resources
+
+- [w3schools.com](https://www.w3schools.com/cssref/pr_grid-template-areas.php) - This taught me how to use the grid-template-areas property.
