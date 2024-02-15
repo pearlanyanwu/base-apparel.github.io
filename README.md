@@ -39,11 +39,11 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use grid-template-areas property to build the mobile view.
+I learned how to use the grid-template-areas property to build the mobile and desktop views.
 
 ### Continued development
 
-I'm uploading the mobile view so I'll be able to view it on my mobile device before I start working on the desktop view.
+In the desktop view, there's a very short scroll on the page. I'm working on removing this scroll while keeping the top and bottom of the hero image touching the top and bottom margins of the screen.
 
 ### Useful resources
 

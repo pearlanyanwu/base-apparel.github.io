@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,6 +28,10 @@ body {
 .info-div {
   grid-area: info;
   padding: 40px 0;
+}
+
+#logo {
+  height: 20px;
 }
 
 #hero {
@@ -56,7 +61,6 @@ body {
 
 .paragraphs p:last-of-type {
   width: 100%;
-  /* font-size: 0.1rem; */
   line-height: 1.5rem;
 }
 
@@ -91,17 +95,7 @@ button {
   padding: 16.5px 35px;
   background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border-style: none;
-}
-
-button,
-#error-icon {
   position: absolute;
-}
-
-#error-icon {
-  margin-top: -5.1em;
-  margin-left: 14.5em;
-  visibility: hidden;
 }
 
 button:hover {
@@ -111,5 +105,44 @@ button:hover {
 @media screen and (min-width: 1440px) {
   .grid-container {
     grid-template-areas: 'logo hero' 'info hero';
+    max-width: 100%;
+  }
+
+  .info-div {
+    margin-top: -15%;
+  }
+
+  .logo-div,
+  .info-div {
+    padding: 5% 23%;
+  }
+
+  #logo {
+    height: 45px;
+  }
+
+  #hero {
+    content: url("images/hero-desktop.jpg");
+    height: 953px;
+  }
+
+  .paragraphs {
+    text-align: left;
+  }
+
+  .paragraphs p:first-of-type {
+    font-size: 5.5rem;
+    width: 50%;
+  }
+
+  .paragraphs p:last-of-type {
+    font-size: 1.25rem;
+    width: 90%;
+    margin-top: -3em;
+    line-height: 30px;
+  }
+
+  #email {
+    width: 85%;
   }
 }
