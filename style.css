@@ -39,7 +39,7 @@ body {
 }
 
 .paragraphs {
-  padding: 0 20px;
+  padding: 0 10px;
   text-align: center;
 }
 
@@ -70,7 +70,7 @@ form {
 
 #email {
   padding: 20px;
-  width: 75%;
+  width: 85%;
   margin-left: 25px;
   border: 1px solid hsl(0, 36%, 70%);
   position: relative;
@@ -140,9 +140,5 @@ button:hover {
     width: 90%;
     margin-top: -3em;
     line-height: 30px;
-  }
-
-  #email {
-    width: 85%;
   }
 }
