@@ -71,7 +71,7 @@ form {
 #email {
   padding: 20px;
   width: 85%;
-  margin-left: 25px;
+  margin-left: 10px;
   border: 1px solid hsl(0, 36%, 70%);
   position: relative;
 }
