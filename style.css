@@ -102,6 +102,8 @@ button:hover {
   cursor: pointer;
 }
 
+/* Desktop design */
+
 @media screen and (min-width: 1440px) {
   .grid-container {
     grid-template-areas: 'logo hero' 'info hero';
@@ -123,7 +125,7 @@ button:hover {
 
   #hero {
     content: url("images/hero-desktop.jpg");
-    height: 953px;
+    height: 949px;
   }
 
   .paragraphs {
